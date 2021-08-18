@@ -1,8 +1,29 @@
 {
+    "type": "directed",
     "nodes": [
-        { "name": "Dakar" }
+        {
+            "id": "eliaswalyba",
+            "name": "Elias W. BA",
+            "address": "Saly carrefour",
+            "telephone": "ttttttttttt"
+        },
+        {
+            "id": "yyyyyyyyy",
+            "name": "Elias W. BA",
+            "address": "Saly carrefour",
+            "telephone": "xxxxxxxxxxx"
+        }
     ],
-    "schema": {
-        
-    }
+    "edges": [
+        {
+            "from": "eliaswalyba",
+            "to": "yyyyyyyyy",
+            "weight": 12
+        },
+        {
+            "from": "xxxxxxxx",
+            "to": "eliaswalyba",
+            "weight": 5
+        }
+    ]
 }

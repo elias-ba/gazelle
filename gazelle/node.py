@@ -8,7 +8,7 @@ class Node:
         return self
 
     def __repr__(self):
-        return f"Node{self.state, self.sons}"
+        return f"Node{self.state}"
 
     def __str__(self):
-        return f"Node{self.state, self.sons}"
+        return f"Node{self.state}"
